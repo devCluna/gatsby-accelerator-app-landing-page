@@ -1,20 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from '../Button/Button'
 import * as styles from './header.module.css'
 
 function Header({title}) {
-  // const [scrollNav, setScrollNav] = React.useState(false)
+  const [scrollNav, setScrollNav] = React.useState(false)
 
-  // window.addEventListener('scroll',()=>{
-  //   if(window.scrollY > 100){
-  //     setScrollNav(true)
-  //   }else{
-  //     setScrollNav(false)
-  //   }
-  // })
+  useEffect(()=>{
+    if(window !== "undefined"){
+      window.addEventListener('scroll',()=>{
+        if(window.scrollY > 300){
+          setScrollNav(true)
+        }else{
+          setScrollNav(false)
+        }
+      })
+    }
+  
+  },[])
 
   return (
-    <header className={`${styles.header} `}>
+    <header className={`${styles.header} ${scrollNav && styles.headerBlue}`}>
       <nav className={styles.nav}>
         <div className={styles.logo}>
           <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
