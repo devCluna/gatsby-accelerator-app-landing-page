@@ -7,10 +7,10 @@ function Footer() {
         <div className={styles.footContent}>
           <h1 className={styles.footTitle}>Join our growing community</h1>
           <span className={styles.footDesc}>Sign up for news and updates about AcceleratorApp</span>
-          <div className={styles.footEmail}>
-            <label>Your Email</label>
-            <input type="text" />
-          </div>
+          <form className={styles.footEmail}>
+            <label htmlFor='email'>Your Email</label>
+            <input type="text" id="email"/>
+          </form>
 
           <div className={styles.links}>
             <div className={styles.link}>
