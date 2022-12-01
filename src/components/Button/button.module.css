@@ -1,0 +1,39 @@
+.button{
+    font-weight: 600;
+    color: var(--color-text);
+    border: 1.5px solid #ffffff;
+    border-radius: 3px;
+    padding: 0.9em 1.5em;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: var(--step--1);
+}
+
+.primary {
+    background-color: #FFFFFC;
+    border: 1.5px solid #ffffff;
+    color: #116EDD;
+}
+
+.secondary {
+    background-color: #FFFFFC;
+    border: 1.5px solid #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1B1E22;
+}
+
+.altPrimary {
+    border: 1.5px solid #116EDD;
+    color: #116EDD;
+}
+
+.altSecondary {
+    border: 1.5px solid #116EDD;
+    background-color: #116EDD;
+    color: #ffffff;
+}
+
+.mr{
+    margin-right: 1.5em;
+}
