@@ -1,21 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from '../Button/Button'
 import * as styles from './header.module.css'
 
 function Header({title}) {
   const [scrollNav, setScrollNav] = React.useState(false)
 
-  if(window !== "undefined"){
-    window.addEventListener('scroll',()=>{
-      if(window.scrollY > 300){
-        setScrollNav(true)
-      }else{
-        setScrollNav(false)
-      }
-    })
-  }
-
+  useEffect(()=>{
+    if(window !== "undefined"){
+      window.addEventListener('scroll',()=>{
+        if(window.scrollY > 300){
+          setScrollNav(true)
+        }else{
+          setScrollNav(false)
+        }
+      })
+    }
   
+  },[])
 
   return (
     <header className={`${styles.header} ${scrollNav && styles.headerBlue}`}>
