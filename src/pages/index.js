@@ -4,12 +4,15 @@ import Seo from "../components/seo"
 import Hero from "../components/Hero/Hero"
 import Icons from "../components/Icons/Icons"
 import Cookies from "../components/Cookies/Cookies"
+import Demo from "../components/Demo/Demo"
 
 const IndexPage = () => (
   <Layout>
     <Cookies/>
     <Hero/>
+    
     <Icons/>
+    <Demo/>
   </Layout>
 )
 
