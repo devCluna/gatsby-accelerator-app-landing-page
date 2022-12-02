@@ -66,7 +66,7 @@
 
 [![ACCELERATOR_APP_SCREENSHOT][product-screenshot]](https://gatsby-accelerator-app-landing-page.vercel.app)
 
-A Video Collector for Youtube
+A landing page concept for Accelerator App
 
 <!-- Features -->
 ## Features
@@ -87,10 +87,7 @@ See the [open issues](https://github.com/devCluna/yt-video-collector/issues) for
 
 * [CSS3](https://developer.mozilla.org/es/docs/Web/CSSre)
 * [React.js](https://es.reactjs.org/)
-* [React-icons](https://react-icons.github.io/react-icons/)
-* [React-Redux](https://react-redux.js.org/)
-* [redux](https://es.redux.js.org/)
-* [axios](https://github.com/axios/axios)
+* [Gatsby.js](https://www.gatsbyjs.com/)
 * [Node.js](https://nodejs.org/es/)
 
 
@@ -125,11 +122,7 @@ To run this project on your local machine or deploy it to a server we need to us
 
  2. Open a terminal of your choice, enter the root directory
 
- 3. Create an .env file in the root directory inside this include the following info:
- ```sh
- //.env file
- VITE_APP_URI = https://dictionaryapi.dev/
- ```
+
  4. Install the dependencies
  ```
  yarn 
@@ -164,8 +157,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/devCluna/yt-video-collector/blob/master/LICENSE) for more information.
-
+Distributed under the MIT License. See [LICENSE](https://github.com/devCluna/gatsby-accelerator-app-landing-page/blob/master/LICENSE) for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -187,10 +179,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/devCluna/yt-
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/devcluna/
 
-[product-screenshot]: <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[product-screenshot]: https://raw.githubusercontent.com/devCluna/gatsby-accelerator-app-landing-page/dev/src/assets/screenshot.png
