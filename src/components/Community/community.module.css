@@ -40,6 +40,7 @@
 }
 
 .headTitle{
+    margin-top: 0.5em;
     font-weight: 600;
     font-size: var(--step-1);
     color: #363C45;
