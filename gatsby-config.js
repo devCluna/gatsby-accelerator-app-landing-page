@@ -10,9 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `Accelerator App`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `Imagine running your incubator/accelerator with ease - take full logistical control of your operations, reclaim your time from administrative tasks, and enjoy peace-of-mind with our comprehensive, automated systems.`,
+    author: `Acelerator App`,
+    siteUrl: `https://www.acceleratorapp.co/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `accelerator-app-icon`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
@@ -36,7 +36,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     
