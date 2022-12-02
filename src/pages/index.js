@@ -6,6 +6,7 @@ import Icons from "../components/Icons/Icons"
 import Cookies from "../components/Cookies/Cookies"
 import Demo from "../components/Demo/Demo"
 import Community from "../components/Community/Community"
+import Customers from "../components/Customers/Customers"
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Hero/>
     <Icons/>
     <Community/>
+    <Customers/>
     <Demo/>
   </Layout>
 )
