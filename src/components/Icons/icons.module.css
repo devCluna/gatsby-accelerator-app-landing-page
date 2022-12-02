@@ -1,3 +1,141 @@
 .icons{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(200px);
+    margin-bottom: 200px;
+}
+
+.iconsHolder{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    background-color: yellow;
+    position: relative;
+    max-width: 184px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    background: #FFFFFF;
+    border-radius: 18%;
+    box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.18);
+}
+
+.icon::after{
+    content: "";
+   display: block;
+   padding-top: calc(100%);
+}
+
+.icon:nth-child(2) {
+    transform: translateY(-56px);
+}
+
+.icon:nth-child(3) {
+    transform: translateY(-110px);
+}
+
+.icon:nth-child(4) {
+    transform: translateY(-56px);
+}
+
+.community{
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+    padding: 0 0.5em;
+}
+
+.community h1 {
+    
+    font-weight: 700;
+    font-size: var(--step-1);
+    color: #206ECF;
+    margin: 0;
+}
+
+.comSubtitle{
+    font-weight: 600;
+    margin: 0.2em 0;
+    font-size: var(--step-3);
+    color: rgba(31, 32, 36, 1);
+}
+
+.comParagraph{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: var(--step--1);
+    color: #6B788A;
+}
+
+@media (max-width: 800px){
+    .icon{
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+
+    .icon:nth-child(3) {
+        transform: translateY(-100px);
+    }
+}
+
+@media (max-width: 425px){
+    .icons{
+        transform: translateY(100px);
+        margin-bottom: 100px;
+
+    }
+
+    .icon{
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+
+    .icon:nth-child(2) {
+        transform: translateY(-45px);
+    }
+    
+    .icon:nth-child(3) {
+        transform: translateY(-75px);
+    }
+    
+    .icon:nth-child(4) {
+        transform: translateY(-45px);
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .icons{
+        transform: translateY(80px);
+        
+    }
+
+    .icon{
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    .icon:nth-child(2) {
+        transform: translateY(-25px);
+    }
+    
+    .icon:nth-child(3) {
+        transform: translateY(-45px);
+    }
+    
+    .icon:nth-child(4) {
+        transform: translateY(-25px);
+    }
 }
