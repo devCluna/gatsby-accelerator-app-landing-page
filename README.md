@@ -88,6 +88,7 @@ See the [open issues](https://github.com/devCluna/yt-video-collector/issues) for
 * [CSS3](https://developer.mozilla.org/es/docs/Web/CSSre)
 * [React.js](https://es.reactjs.org/)
 * [Gatsby.js](https://www.gatsbyjs.com/)
+* [gatsby-cli](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
 * [Node.js](https://nodejs.org/es/)
 
 
@@ -100,9 +101,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 To run this project on your local machine or deploy it to a server we need to use or have the following tools:
-* ***yarn***
+* ***npm***
   ```sh
-  npm install yarn -g
+  npm install 
   ```
 * ***Node.js > 16.10***
 
@@ -111,25 +112,29 @@ To run this project on your local machine or deploy it to a server we need to us
 * ***git*** 
 
   https://git-scm.com/
+  
+ * ***gatsby-cli*** 
+
+  https://www.gatsbyjs.com/docs/reference/gatsby-cli/
 
 
 ### Run on Localhost 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/devCluna/yt-video-collector
+   git clone https://github.com/devCluna/gatsby-accelerator-app-landing-page
    ```
 
  2. Open a terminal of your choice, enter the root directory
 
 
- 4. Install the dependencies
+ 3. Install the dependencies
  ```
- yarn 
+ npm install 
  ````
  5. finally run the scripts
  ```
- yarn run dev
+ gastby develop
  ```
 
 <!-- CONTRIBUTING -->
